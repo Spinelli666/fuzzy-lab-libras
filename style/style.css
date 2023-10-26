@@ -60,9 +60,11 @@
 /* Todas páginas */
 
 .h2-style{
+  font-family: 'Imprima', sans-serif;
   text-align: center;
   margin-top: 8px;
   margin-bottom: 8px;
+  padding-top: 24vh;
 } 
 
 /* Corpo da página inicial */
@@ -110,7 +112,7 @@ body {
 }
 
 .text-area-pt{
-  width: 50vh;
+  width: 100%;
   font-family: 'Imprima', sans-serif;
   border: solid 2px black;
   border-bottom-left-radius: 10px;
@@ -121,7 +123,7 @@ body {
 }
 
 .text-area-lb{
-  width: 50vh;
+  width: 100%;
   border: solid 2px black;
   font-family: 'libras', sans-serif;
   border-bottom-left-radius: 10px;
@@ -129,18 +131,4 @@ body {
   border-top: none;
   font-size: 24px;
   text-align: center;
-}
-
-@media only screen and (max-device-width: 900px) {
-  body {
-    background-color: #F5EA06;
-  }
-
-  .text-area-pt {
-    width: 40vh;
-  }
-
-  .text-area-lb {
-    width: 40vh;
-  }
 }

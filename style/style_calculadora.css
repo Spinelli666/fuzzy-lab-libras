@@ -201,7 +201,8 @@ body {
 
 #resultado {
   font-family: 'Imprima', sans-serif;
-  margin-left: 22vh;
+  display: flex;
+  justify-content: center;
 }
 
 .text-area{
