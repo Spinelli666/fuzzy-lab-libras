@@ -1,0 +1,244 @@
+@font-face{
+  font-family: "libras";
+  src: url('libras.ttf');
+}
+
+.custom-navbar {
+  background-color: #0389DC; /* Defina a cor de fundo desejada aqui */
+  border-bottom: solid 2px black;
+  padding: 15px;
+  font-family: 'Imprima', sans-serif;
+  justify-content: center;
+  }
+  
+.custom-navbar p{
+  background-color: #F5EA06;
+  border: solid;
+  border-radius: 10px;
+  font-size: 32px;
+}
+
+
+  .custom-navbar .navbar-brand,
+  .custom-navbar .nav-link {
+    color: #000; /* Defina a cor dos links aqui */
+  }
+  
+  .custom-navbar .nav-link {
+    color: white; /* Defina a cor do link ativo aqui */
+    -webkit-text-stroke: 0.5px #000;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .custom-navbar .nav-link:hover {
+    color: #0a03037e; /* Defina a cor do link ativo aqui */
+  }
+  
+  .navbar-toggler {
+    border: solid 2px black;
+    width: 64px;  /* Ajustando a largura do botão */
+    height: 64px; /* Ajustando a altura do botão */
+    background-color: yellow;
+    border-radius: 16px; /* Ajustando para bordas completamente arredondadas */
+    padding: 8px 8px;  /* Ajuste no padding para centralizar o ícone */
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+/* Todas páginas */
+
+.h2-style{
+  font-family: 'Imprima', sans-serif;;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+} 
+
+/* Calculadora */
+
+
+body {
+    background-color: #F5EA06;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+
+.calculator, .result {
+    background-color: #12F56B;
+    border: solid 2px black;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 16px;
+}
+
+
+
+#display {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 16px;
+    border: solid 2px black;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+
+
+.clear {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  border: solid 2px black;
+  border-radius: 16px;
+  background-color: #E68200;
+  cursor: pointer;
+}
+
+.clear:hover {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  border: solid 2px black;
+  border-radius: 16px;
+  background-color: #5CDB56;
+  cursor: pointer;
+}
+
+.num{
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  border: solid 2px black;
+  border-radius: 16px;
+  background-color: #E68200;
+  cursor: pointer;
+}
+
+.op{
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  border: solid 2px black;
+  border-radius: 16px;
+  background-color: #E68200;
+  cursor: pointer;
+}
+
+.num:hover {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    border: solid 2px black;
+    border-radius: 16px;
+    background-color: #5CDB56;
+    cursor: pointer;
+}
+
+.op:hover {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  border: solid 2px black;
+  border-radius: 16px;
+  background-color: #5CDB56;
+  cursor: pointer;
+}
+
+.num:focus {
+    outline: none;
+}
+
+.op:focus {
+  outline: none;
+}
+
+#equals {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  border: solid 2px black;
+  border-radius: 16px;
+  background-color: #E68200;
+  cursor: pointer;
+} 
+
+#equals:hover{
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  border: solid 2px black;
+  border-radius: 16px;
+  background-color: #5CDB56;
+  cursor: pointer;
+}
+
+#equals:focus {
+  outline: none;
+}
+
+#resultado {
+  font-family: 'Imprima', sans-serif;
+  margin-left: 22vh;
+}
+
+.text-area{
+    width: 96%;
+    height: 8vh;
+    margin: 8px;
+    font-family: 'Imprima', sans-serif;
+    border: solid 2px black;
+    border-radius: 16px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.text-area-output{
+    width: 96%;
+    height: 8vh;
+    margin: 8px;
+    font-family: 'Imprima', sans-serif;
+    border: solid 2px black;
+    border-radius: 16px;
+    font-size: 36px;
+    text-align: center;
+    background-color: white;
+}
+
+.text-area-output-lb{
+    width: 96%;
+    height: 8vh;
+    margin: 8px;
+    font-family: 'libras', sans-serif;
+    border: solid 2px black;
+    border-radius: 16px;
+    font-size: 36px;
+    text-align: center;
+
+    background-color: white;
+}
+
+  
