@@ -25,7 +25,7 @@
     }
     
     .custom-navbar .nav-link {
-      color: white; /* Defina a cor do link ativo aqui */
+      color: black; /* Defina a cor do link ativo aqui */
       -webkit-text-stroke: 0.5px #000;
       margin-left: 8px;
       margin-right: 8px;
@@ -61,10 +61,11 @@
   /* Todas páginas */
   
   .h2-style{
-    font-family: 'Imprima', sans-serif;;
+    font-family: 'Imprima', sans-serif;
     text-align: center;
     margin-top: 8px;
     margin-bottom: 8px;
+    padding-top: 5vh;
   } 
   
   /* Corpo da página inicial */
@@ -95,6 +96,20 @@
       background: #12F56B;
   
   }
+
+  .card-title{
+    font-family: 'Imprima', sans-serif;
+    background-color: orange;
+    font-size: 20px;
+    border: solid 2px black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 0vh;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
   
   .col{
       margin-top: 2vh;
@@ -102,25 +117,27 @@
   }
   
   .text-area-pt{
-      width: 36vh;
+      width: 100%;
       font-family: 'Imprima', sans-serif;
       border: solid 2px black;
-      border-radius: 16px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top: none;
       font-size: 24px;
       text-align: center;
-      margin-top:8px;
       margin-bottom: 8px;
   
   }
 
   .p-pt {
-    width: 36vh;
+    width: 100%;
     font-family: 'Imprima', sans-serif;
     border: solid 2px black;
-    border-radius: 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
     font-size: 24px;
     text-align: center;
-    margin-top:8px;
     margin-bottom: 8px;
     padding: 5px 10px;
     display: block;
@@ -130,8 +147,8 @@
 }
 
 #textArea02 {
-    min-height: 30px; 
-    white-space: pre-wrap; 
+  min-height: 30px; 
+  white-space: pre-wrap; 
 }
 
 
