@@ -38,21 +38,24 @@
                 <div class="calculator">
                     <input type="text" class="text-area" id="display" readonly>
                     <div class="buttons">
+                        <button class="clear" id="clear">c</button>
+                        <button class="num-hidden"></button>
+                        <button class="num-hidden"></button>
+                        <button class="op">/</button>
                         <button class="num">7</button>
                         <button class="num">8</button>
                         <button class="num">9</button>
-                        <button class="op">/</button>
+                        <button class="op">*</button>
                         <button class="num">4</button>
                         <button class="num">5</button>
                         <button class="num">6</button>
-                        <button class="op">*</button>
+                        <button class="op">-</button>
                         <button class="num">1</button>
                         <button class="num">2</button>
                         <button class="num">3</button>
-                        <button class="op">-</button>
                         <button class="op">+</button>
+                        <button class="num num-zero">0</button>
                         <button class="num">,</button>
-                        <button class="clear" id="clear">c</button>
                         <button id="equals">=</button>
                         
                     </div>
@@ -60,8 +63,11 @@
             </div>
             <div class="col">
                 <div class="result">
-                    <h2 id="resultado">Resultado</h2>
+                    <h2 class="card-title">Resultado Números</h2>
                     <input type="text" class="text-area-output" id="output1" readonly>
+                </div>
+                <div class="result">
+                    <h2 class="card-title">Resultado Libras</h2>
                     <input type="text" class="text-area-output-lb" id="output2" readonly>
                 </div>
             </div>

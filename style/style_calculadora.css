@@ -25,7 +25,7 @@
   }
   
   .custom-navbar .nav-link {
-    color: white; /* Defina a cor do link ativo aqui */
+    color: black; /* Defina a cor do link ativo aqui */
     -webkit-text-stroke: 0.5px #000;
     margin-left: 8px;
     margin-right: 8px;
@@ -61,10 +61,11 @@
 /* Todas páginas */
 
 .h2-style{
-  font-family: 'Imprima', sans-serif;;
+  font-family: 'Imprima', sans-serif;
   text-align: center;
   margin-top: 8px;
   margin-bottom: 8px;
+  padding-top: 5vh;
 } 
 
 /* Calculadora */
@@ -137,6 +138,20 @@ body {
   cursor: pointer;
 }
 
+.num-hidden{
+  width: 100%;
+  padding: 16px;
+  font-size: 24px;
+  border: hidden;
+  border-radius: 16px;
+  background-color: #12F56B;
+  cursor: none;
+}
+
+.num-zero{
+  grid-column: span 2
+}
+
 .op{
   width: 100%;
   padding: 20px;
@@ -199,10 +214,21 @@ body {
   outline: none;
 }
 
-#resultado {
+.card-title{
   font-family: 'Imprima', sans-serif;
+  background-color: orange;
+  font-size: 28px;
+  border: solid 2px black;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-bottom: 0vh;
   display: flex;
   justify-content: center;
+
+}
+
+.result {
+  font-family: 'Imprima', sans-serif;
 }
 
 .text-area{
@@ -211,31 +237,34 @@ body {
     margin: 8px;
     font-family: 'Imprima', sans-serif;
     border: solid 2px black;
-    border-radius: 16px;
+    border-radius: 10px;
     font-size: 20px;
     text-align: center;
 
 }
 
 .text-area-output{
-    width: 96%;
+    color: #0389DC;
+    width: 100%;
     height: 8vh;
-    margin: 8px;
     font-family: 'Imprima', sans-serif;
     border: solid 2px black;
-    border-radius: 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
     font-size: 36px;
     text-align: center;
     background-color: white;
 }
 
 .text-area-output-lb{
-    width: 96%;
+    width: 100%;
     height: 8vh;
-    margin: 8px;
     font-family: 'libras', sans-serif;
     border: solid 2px black;
-    border-radius: 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
     font-size: 36px;
     text-align: center;
 
